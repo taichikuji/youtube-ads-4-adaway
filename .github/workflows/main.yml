@@ -1,0 +1,37 @@
+# This is a basic workflow to help you get started with Actions
+
+name: youtube-ads-4-adaway
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule:
+    - cron: "0 * * * *"
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+
+      - name:
+        run: |
+          link="https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list"
+          online_md5="$(curl -sL $link | md5sum | cut -d ' ' -f 1)"
+          local_md5="$(md5sum hosts | cut -d ' ' -f 1)"
+
+          if [ ! "$online_md5" == "$local_md5" ]; then
+              curl $link --output black.list
+              sed 's/^/0.0.0.0 /' black.list > hosts
+              rm black.list
+          fi
+      - name: Pushing changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatic commit
+          file_pattern: hosts
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: Taichi <ivanperezfernandezsuper@gmail.com>
+          skip_dirty_check: true

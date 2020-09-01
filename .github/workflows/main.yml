@@ -4,9 +4,7 @@ name: youtube-ads-4-adaway
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  schedule:
-    - cron: "0 * * * *"
+on: [push]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   workflow:
@@ -34,4 +32,3 @@ jobs:
           commit_user_name: GitHub Actions
           commit_user_email: actions@github.com
           commit_author: Taichi <ivanperezfernandezsuper@gmail.com>
-          skip_dirty_check: true

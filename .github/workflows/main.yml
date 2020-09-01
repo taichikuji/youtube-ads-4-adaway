@@ -4,7 +4,10 @@ name: youtube-ads-4-adaway
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on: [push]
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 * * * *'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   workflow:
@@ -13,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@master
 
-      - name:
+      - name: Run script
         run: |
           link="https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list"
           online_md5="$(curl -sL $link | md5sum | cut -d ' ' -f 1)"

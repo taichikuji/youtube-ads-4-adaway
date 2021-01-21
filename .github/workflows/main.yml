@@ -1,9 +1,11 @@
 name: youtube-ads-4-adaway
 
 on:
+  push:
+    branches: [master]
   schedule:
-    - cron:  '0 */12 * * *'
-      
+    - cron: "0 */12 * * *"
+
 jobs:
   workflow:
     runs-on: ubuntu-latest

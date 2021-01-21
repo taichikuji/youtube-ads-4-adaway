@@ -1,11 +1,11 @@
 #!/bin/sh
-
-link="https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list"
-online_md5="$(curl -sL $link | md5sum | cut -d ' ' -f 1)"
-local_md5="$(md5sum hosts | cut -d ' ' -f 1)"
-
-if [ ! "$online_md5" == "$local_md5" ]; then
+links=("https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list" "https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt")
+for link in "${links[@]}"
+do
     curl $link --output black.list
-    sed 's/^/0.0.0.0 /' black.list > hosts
+    sed 's/^/0.0.0.0 /' black.list >> list
     rm black.list
-fi
+done
+
+sort list | uniq -u > hosts
+rm list

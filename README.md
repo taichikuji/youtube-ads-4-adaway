@@ -13,7 +13,7 @@
 
 ```https://raw.githubusercontent.com/taichikuji/youTube-ads-4-adaway/master/adaway_script.ps1```
 
-# How the script works
+# How does the script work
 
 1. It downloads the list to whatever folder you have the script in
 2. It will apply the changes that it requires to work on adaway

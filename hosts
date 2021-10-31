@@ -8,7 +8,6 @@
 0.0.0.0 ads.youtube.com
 0.0.0.0 adservice.google.com
 0.0.0.0 analytic-google.com
-0.0.0.0 clients1.google.com
 0.0.0.0 doubleclick.net
 0.0.0.0 dts.innovid.com
 0.0.0.0 files.adform.net
@@ -15143,8 +15142,6 @@
 0.0.0.0 r9.sn-vgqsrnlz.googlevideo.com
 0.0.0.0 rtd.tubemogul.com
 0.0.0.0 s.innovid.com
-0.0.0.0 s.youtube.com
-0.0.0.0 s.ytimg.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 secure-ds.serving-sys.com
 0.0.0.0 securepubads.g.doubleclick.net

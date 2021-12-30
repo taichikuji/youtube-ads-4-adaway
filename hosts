@@ -11022,6 +11022,7 @@
 0.0.0.0 r3---sn-hpa7zns6.googlevideo.com
 0.0.0.0 r3---sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 r3---sn-jvhj5nu-nh4l.googlevideo.com
+0.0.0.0 r3---sn-jvhj5nu-nh4s.googlevideo.com
 0.0.0.0 r3---sn-jvhj5nu-nh4z.googlevideo.com
 0.0.0.0 r3---sn-n02xgoxufvg3-2gbl.googlevideo.com
 0.0.0.0 r3---sn-n02xgoxufvg3-2gbs.googlevideo.com
@@ -11434,6 +11435,7 @@
 0.0.0.0 r3.sn-hp57ynlr.googlevideo.com
 0.0.0.0 r3.sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 r3.sn-jvhj5nu-nh4l.googlevideo.com
+0.0.0.0 r3.sn-jvhj5nu-nh4s.googlevideo.com
 0.0.0.0 r3.sn-jvhj5nu-nh4z.googlevideo.com
 0.0.0.0 r3.sn-n4v7knlk.googlevideo.com
 0.0.0.0 r3.sn-n4v7knlz.googlevideo.com
@@ -16619,6 +16621,7 @@
 0.0.0.0 rr3---sn-a5meknl7.googlevideo.com
 0.0.0.0 rr3---sn-a5meknll.googlevideo.com
 0.0.0.0 rr3---sn-a5mlrn7y.googlevideo.com
+0.0.0.0 rr3---sn-a5mlrnel.googlevideo.com
 0.0.0.0 rr3---sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 rr3---sn-jvhj5nu-nh4l.googlevideo.com
 0.0.0.0 rr3---sn-jvhj5nu-nh4s.googlevideo.com
@@ -16633,6 +16636,7 @@
 0.0.0.0 rr3.sn-a5meknl7.googlevideo.com
 0.0.0.0 rr3.sn-a5meknll.googlevideo.com
 0.0.0.0 rr3.sn-a5mlrn7y.googlevideo.com
+0.0.0.0 rr3.sn-a5mlrnel.googlevideo.com
 0.0.0.0 rr3.sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 rr3.sn-jvhj5nu-nh4l.googlevideo.com
 0.0.0.0 rr3.sn-jvhj5nu-nh4s.googlevideo.com
@@ -16646,6 +16650,7 @@
 0.0.0.0 rr4---sn-a5mekned.googlevideo.com
 0.0.0.0 rr4---sn-a5mlrn7d.googlevideo.com
 0.0.0.0 rr4---sn-a5mlrn7r.googlevideo.com
+0.0.0.0 rr4---sn-a5mlrn7z.googlevideo.com
 0.0.0.0 rr4---sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 rr4---sn-jvhj5nu-nh4l.googlevideo.com
 0.0.0.0 rr4---sn-jvhj5nu-nh4l.googlevideo.com.local
@@ -16659,6 +16664,7 @@
 0.0.0.0 rr4.sn-a5mekned.googlevideo.com
 0.0.0.0 rr4.sn-a5mlrn7d.googlevideo.com
 0.0.0.0 rr4.sn-a5mlrn7r.googlevideo.com
+0.0.0.0 rr4.sn-a5mlrn7z.googlevideo.com
 0.0.0.0 rr4.sn-jvhj5nu-nh4e.googlevideo.com
 0.0.0.0 rr4.sn-jvhj5nu-nh4l.googlevideo.com
 0.0.0.0 rr4.sn-jvhj5nu-nh4s.googlevideo.com
@@ -16668,6 +16674,7 @@
 0.0.0.0 rr4.sn-o097znss.googlevideo.com
 0.0.0.0 rr4.sn-o097znsz.googlevideo.com
 0.0.0.0 rr4.sn-o097znz7.googlevideo.com
+0.0.0.0 rr5---sn-a5mekn6d.googlevideo.com
 0.0.0.0 rr5---sn-a5meknll.googlevideo.com
 0.0.0.0 rr5---sn-a5meknzk.googlevideo.com
 0.0.0.0 rr5---sn-a5meknzr.googlevideo.com
@@ -16683,6 +16690,7 @@
 0.0.0.0 rr5---sn-o097znsz.googlevideo.com
 0.0.0.0 rr5---sn-o097znz7.googlevideo.com
 0.0.0.0 rr5---sn-o097znze.googlevideo.com
+0.0.0.0 rr5.sn-a5mekn6d.googlevideo.com
 0.0.0.0 rr5.sn-a5meknll.googlevideo.com
 0.0.0.0 rr5.sn-a5meknzk.googlevideo.com
 0.0.0.0 rr5.sn-a5meknzr.googlevideo.com
@@ -16700,8 +16708,10 @@
 0.0.0.0 rr5.sn-o097znze.googlevideo.com
 0.0.0.0 rr6---sn-a5mekned.googlevideo.com
 0.0.0.0 rr6---sn-a5mekner.googlevideo.com
+0.0.0.0 rr6---sn-a5mlrn7s.googlevideo.com
 0.0.0.0 rr6.sn-a5mekned.googlevideo.com
 0.0.0.0 rr6.sn-a5mekner.googlevideo.com
+0.0.0.0 rr6.sn-a5mlrn7s.googlevideo.com
 0.0.0.0 rtd.tubemogul.com
 0.0.0.0 s.innovid.com
 0.0.0.0 s0.2mdn.net

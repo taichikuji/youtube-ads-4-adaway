@@ -2,16 +2,16 @@
 
 ## Automatic repository using Github Actions that updates and creates a usable hosts file for Adaway and other similar applications.
 
-## Before starting, you have two ways of doing this;
+### Getting started
 
-- Download / follow the list directly from this repo and install it on your Adaway app
+In order to use these modified hosts files, there are multiple ways to do so. As indicated in the title of the project, this is meant to be used mainly on Adaway, hence, in order to have it integrated within the app, you have to add the following link:
 
-```wget https://raw.githubusercontent.com/taichikuji/youTube-ads-4-adaway/master/hosts```
+```https://raw.githubusercontent.com/taichikuji/youTube-ads-4-adaway/master/hosts```
 
 
-- The second option is to use the script to transform the list locally, and then implement it however you want
+### Running the scripts
 
-```https://raw.githubusercontent.com/taichikuji/youTube-ads-4-adaway/master/adaway_script.ps1```
+There are two scripts, one for Windows, and another one for linux. ( ps1 for Windows, sh for Linux)
 
 # How does the script work
 
@@ -19,4 +19,4 @@
 2. It will apply the changes that it requires to work on adaway
 3. After downloading, it removes the original list file and just leaves the modified version
 
-### This script should always work as long as the main repository is still up and running.
+_This script should always work as long as the main repository is still up and running._

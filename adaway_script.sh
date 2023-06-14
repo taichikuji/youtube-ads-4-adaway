@@ -1,11 +1,10 @@
 #!/bin/bash
 links=("https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list" "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt" "https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt")
 
+hosts="hosts"
+
 for link in "${links[@]}"; do
-    curl -s "$link" -o "black.list"
-    sed 's/^/0.0.0.0 /' "black.list" >> "list"
-    rm "black.list"
+    curl --silent $link | sed 's/^/0.0.0.0 /' >> $hosts
 done
 
-sort "list" | uniq > "hosts"
-rm "list"
+sort -u $hosts -o $hosts

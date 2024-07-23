@@ -1,4 +1,4 @@
-$links = @("https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list", "https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt", "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt")
+$links = @("https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt", "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt", "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt")
 
 function Append-Text {
     process {

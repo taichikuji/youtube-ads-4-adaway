@@ -4719,6 +4719,7 @@
 0.0.0.0 r2---sn-bg0eznzy.googlevideo.com
 0.0.0.0 r2---sn-bg0s7n7s.googlevideo.com
 0.0.0.0 r2---sn-bg0s7nld.googlevideo.com
+0.0.0.0 r2---sn-bg0s7ns6.googlevideo.com
 0.0.0.0 r2---sn-cvh76n7d.googlevideo.com
 0.0.0.0 r2---sn-cvh76n7e.googlevideo.com
 0.0.0.0 r2---sn-cvh76n7k.googlevideo.com
@@ -5053,6 +5054,7 @@
 0.0.0.0 r2.sn-bg0eznzy.googlevideo.com
 0.0.0.0 r2.sn-bg0s7n7s.googlevideo.com
 0.0.0.0 r2.sn-bg0s7nld.googlevideo.com
+0.0.0.0 r2.sn-bg0s7ns6.googlevideo.com
 0.0.0.0 r2.sn-cvh76n7d.googlevideo.com
 0.0.0.0 r2.sn-cvh76n7e.googlevideo.com
 0.0.0.0 r2.sn-cvh76n7k.googlevideo.com
@@ -6425,6 +6427,7 @@
 0.0.0.0 r4---sn-bg0eznll.googlevideo.com
 0.0.0.0 r4---sn-bg0eznls.googlevideo.com
 0.0.0.0 r4---sn-bg0eznlz.googlevideo.com
+0.0.0.0 r4---sn-bg0eznsr.googlevideo.com
 0.0.0.0 r4---sn-bg0eznze.googlevideo.com
 0.0.0.0 r4---sn-bg0s7n7d.googlevideo.com
 0.0.0.0 r4---sn-bg0s7nlk.googlevideo.com
@@ -6749,6 +6752,7 @@
 0.0.0.0 r4.sn-bg0eznll.googlevideo.com
 0.0.0.0 r4.sn-bg0eznls.googlevideo.com
 0.0.0.0 r4.sn-bg0eznlz.googlevideo.com
+0.0.0.0 r4.sn-bg0eznsr.googlevideo.com
 0.0.0.0 r4.sn-bg0eznze.googlevideo.com
 0.0.0.0 r4.sn-bg0s7n7d.googlevideo.com
 0.0.0.0 r4.sn-bg0s7nlk.googlevideo.com
@@ -7067,11 +7071,14 @@
 0.0.0.0 r5---sn-aigllnzs.googlevideo.com
 0.0.0.0 r5---sn-aigllnzy.googlevideo.com
 0.0.0.0 r5---sn-aigllnzz.googlevideo.com
+0.0.0.0 r5---sn-bg0ezne7.googlevideo.com
 0.0.0.0 r5---sn-bg0eznzl.googlevideo.com
+0.0.0.0 r5---sn-bg0eznzr.googlevideo.com
 0.0.0.0 r5---sn-bg0eznzy.googlevideo.com
 0.0.0.0 r5---sn-bg0s7n7e.googlevideo.com
 0.0.0.0 r5---sn-bg0s7nl6.googlevideo.com
 0.0.0.0 r5---sn-bg0s7nlk.googlevideo.com
+0.0.0.0 r5---sn-bg0s7nly.googlevideo.com
 0.0.0.0 r5---sn-bg0s7ns7.googlevideo.com
 0.0.0.0 r5---sn-ci5gup-qxaee.googlevideo.com
 0.0.0.0 r5---sn-cvh76n7d.googlevideo.com
@@ -7396,11 +7403,14 @@
 0.0.0.0 r5.sn-b8u-btos.googlevideo.com
 0.0.0.0 r5.sn-b8u-cnc6.googlevideo.com
 0.0.0.0 r5.sn-b8u-cnce.googlevideo.com
+0.0.0.0 r5.sn-bg0ezne7.googlevideo.com
 0.0.0.0 r5.sn-bg0eznzl.googlevideo.com
+0.0.0.0 r5.sn-bg0eznzr.googlevideo.com
 0.0.0.0 r5.sn-bg0eznzy.googlevideo.com
 0.0.0.0 r5.sn-bg0s7n7e.googlevideo.com
 0.0.0.0 r5.sn-bg0s7nl6.googlevideo.com
 0.0.0.0 r5.sn-bg0s7nlk.googlevideo.com
+0.0.0.0 r5.sn-bg0s7nly.googlevideo.com
 0.0.0.0 r5.sn-bg0s7ns7.googlevideo.com
 0.0.0.0 r5.sn-cvh76n7d.googlevideo.com
 0.0.0.0 r5.sn-cvh76n7e.googlevideo.com
@@ -7995,6 +8005,7 @@
 0.0.0.0 r6.sn-aigllnzz.googlevideo.com
 0.0.0.0 r6.sn-b8u-btos.googlevideo.com
 0.0.0.0 r6.sn-b8u-cnc6.googlevideo.com
+0.0.0.0 r6.sn-b8u-cnce.googlevideo.com
 0.0.0.0 r6.sn-cvh76n7d.googlevideo.com
 0.0.0.0 r6.sn-cvh76n7e.googlevideo.com
 0.0.0.0 r6.sn-cvh76n7k.googlevideo.com

@@ -1,5 +1,5 @@
 #!/bin/bash
-links=("https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt" "https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt" "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt")
+links=("https://raw.githubusercontent.com/manhd89/YouTube-Ads/refs/heads/main/youtube_ad_urls.txt" "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt")
 
 hosts="hosts"
 

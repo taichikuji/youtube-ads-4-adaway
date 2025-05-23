@@ -2,10 +2,7 @@
 import urllib.request
 import os
 
-links = [
-    "https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt",
-    "https://raw.githubusercontent.com/manhd89/YouTube-Ads/refs/heads/main/youtube_ad_urls.txt"
-]
+links = ["https://raw.githubusercontent.com/kliff-k/YtAdList/main/youtube.txt","https://raw.githubusercontent.com/manhd89/YouTube-Ads/refs/heads/main/youtube_ad_urls.txt"]
 
 hosts = set()
 

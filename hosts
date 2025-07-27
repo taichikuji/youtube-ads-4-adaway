@@ -1,5 +1,6 @@
 0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 2mdn.net
+0.0.0.0 404: Not Found0.0.0.0 r1.sn-bg0e6ne6.googlevideo.com
 0.0.0.0 404: Not Found0.0.0.0 r1.sn-bg0s7n7k.googlevideo.com
 0.0.0.0 404: Not Found0.0.0.0 r1.sn-bg0s7ns7.googlevideo.com
 0.0.0.0 404: Not Found0.0.0.0 r3.sn-tn.googlevideo.com
@@ -206,6 +207,7 @@
 0.0.0.0 r1---sn-aigllnzy.googlevideo.com
 0.0.0.0 r1---sn-aigllnzz.googlevideo.com
 0.0.0.0 r1---sn-bg0e6n7d.googlevideo.com
+0.0.0.0 r1---sn-bg0e6ne6.googlevideo.com
 0.0.0.0 r1---sn-bg0e6nes.googlevideo.com
 0.0.0.0 r1---sn-bg0eznle.googlevideo.com
 0.0.0.0 r1---sn-bg0eznls.googlevideo.com
@@ -7238,6 +7240,7 @@
 0.0.0.0 r5---sn-bg0e6n7y.googlevideo.com
 0.0.0.0 r5---sn-bg0e6ne7.googlevideo.com
 0.0.0.0 r5---sn-bg0e6nel.googlevideo.com
+0.0.0.0 r5---sn-bg0e6nes.googlevideo.com
 0.0.0.0 r5---sn-bg0ezne7.googlevideo.com
 0.0.0.0 r5---sn-bg0eznek.googlevideo.com
 0.0.0.0 r5---sn-bg0eznll.googlevideo.com
@@ -7593,6 +7596,7 @@
 0.0.0.0 r5.sn-bg0e6n7y.googlevideo.com
 0.0.0.0 r5.sn-bg0e6ne7.googlevideo.com
 0.0.0.0 r5.sn-bg0e6nel.googlevideo.com
+0.0.0.0 r5.sn-bg0e6nes.googlevideo.com
 0.0.0.0 r5.sn-bg0ezne7.googlevideo.com
 0.0.0.0 r5.sn-bg0eznek.googlevideo.com
 0.0.0.0 r5.sn-bg0eznll.googlevideo.com
@@ -9888,6 +9892,7 @@
 0.0.0.0 rr1---sn-woc7knel.googlevideo.com
 0.0.0.0 rr1---sn-woc7knes.googlevideo.com
 0.0.0.0 rr1---sn-woc7knez.googlevideo.com
+0.0.0.0 rr1.sn-2obg05-co.googlevideo.com
 0.0.0.0 rr1.sn-4g5edndk.googlevideo.com
 0.0.0.0 rr1.sn-5hne6nsd.googlevideo.com
 0.0.0.0 rr1.sn-5hneknee.googlevideo.com
@@ -10743,6 +10748,7 @@
 0.0.0.0 rr3---sn-woc7knel.googlevideo.com
 0.0.0.0 rr3---sn-woc7knes.googlevideo.com
 0.0.0.0 rr3---sn-woc7knez.googlevideo.com
+0.0.0.0 rr3.sn-2obg05-co.googlevideo.com
 0.0.0.0 rr3.sn-5hne6n6e.googlevideo.com
 0.0.0.0 rr3.sn-5hne6nz6.googlevideo.com
 0.0.0.0 rr3.sn-b8u-bpbe.googlevideo.com
@@ -11204,6 +11210,7 @@
 0.0.0.0 rr4.sn-bg0e6nee.googlevideo.com
 0.0.0.0 rr4.sn-bg0e6nek.googlevideo.com
 0.0.0.0 rr4.sn-bg0e6nel.googlevideo.com
+0.0.0.0 rr4.sn-bg0e6ner.googlevideo.com
 0.0.0.0 rr4.sn-bg0e6nes.googlevideo.com
 0.0.0.0 rr4.sn-bg0e6ney.googlevideo.com
 0.0.0.0 rr4.sn-bg0e6nez.googlevideo.com
@@ -11601,6 +11608,7 @@
 0.0.0.0 rr5---sn-woc7knel.googlevideo.com
 0.0.0.0 rr5---sn-woc7knes.googlevideo.com
 0.0.0.0 rr5---sn-woc7knez.googlevideo.com
+0.0.0.0 rr5.sn-2obg05-co.googlevideo.com
 0.0.0.0 rr5.sn-5hne6n6l.googlevideo.com
 0.0.0.0 rr5.sn-b8u-bpbe.googlevideo.com
 0.0.0.0 rr5.sn-b8u-bpbl.googlevideo.com
@@ -11620,9 +11628,11 @@
 0.0.0.0 rr5.sn-bg0e6n7y.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6ne6.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6ne7.googlevideo.com
+0.0.0.0 rr5.sn-bg0e6ned.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6nee.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6nek.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6nel.googlevideo.com
+0.0.0.0 rr5.sn-bg0e6ner.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6nes.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6ney.googlevideo.com
 0.0.0.0 rr5.sn-bg0e6nez.googlevideo.com

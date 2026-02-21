@@ -2,7 +2,7 @@ name: youtube-ads-4-adaway
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   schedule:
     - cron: "0 0 * * 0"
 

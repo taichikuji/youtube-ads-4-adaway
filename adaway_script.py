@@ -22,7 +22,7 @@ for link in links:
             else:
                 host = parts[0]
 
-            hosts.add(f"0.0.0.0 {host}")
+            hosts.add(f"0.0.0.0 {host.lower()}")
 
 with open(os.path.join(os.path.dirname(__file__), "hosts"), "w") as f:
     for host in sorted(hosts):

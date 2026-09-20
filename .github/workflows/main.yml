@@ -1,0 +1,40 @@
+name: youtube-ads-4-adaway
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - name: Run script
+        run: ./adaway_script.py
+
+      - name: Update generated hosts commit
+        run: |
+          if git diff --quiet -- hosts; then
+            echo "No changes to hosts."
+            exit 0
+          fi
+
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add hosts
+
+          if [ "$(git log -1 --pretty=%s)" = "Automatic commit" ]; then
+            git commit --amend --no-edit --author="Taichi <48720361+taichikuji@users.noreply.github.com>"
+            git push --force-with-lease=refs/heads/main:"$GITHUB_SHA" origin HEAD:main
+          else
+            git commit --author="Taichi <48720361+taichikuji@users.noreply.github.com>" -m "Automatic commit"
+            git push origin HEAD:main
+          fi

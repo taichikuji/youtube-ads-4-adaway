@@ -6,7 +6,7 @@
 
 In order to use these modified hosts files, there are multiple ways to do so. As indicated in the title of the project, this is meant to be used mainly on Adaway, hence, in order to have it integrated within the app, you have to add the following link:
 
-```https://raw.githubusercontent.com/taichikuji/youTube-ads-4-adaway/master/hosts```
+```https://raw.githubusercontent.com/taichikuji/youtube-ads-4-adaway/main/hosts```
 
 
 ### Running the scripts
